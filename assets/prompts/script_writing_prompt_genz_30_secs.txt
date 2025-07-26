@@ -30,9 +30,10 @@ Constraints:
 
     Do not exaggerate or distort the study — keep it accurate but exciting
 
+
 Input:
 Here is the summary of the paper:
 [Insert summary here]
 
 Output:
-A ready-to-record 30-second TikTok script for Gen Z.
+A ready-to-record 30-second TikTok script for Gen Z including only the dialogue parts (omiting the instructions).

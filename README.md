@@ -22,7 +22,7 @@ This project creates TikTok/YouTube Shorts style videos from academic papers by:
           ↓
 [4] Asset Creation
    ├─ [4a] Image Generation (Flux via FAL.AI)
-   └─ [4b] Voice Generation (Coqui TTS)
+   └─ [4b] Voice Generation (ElevenLabs)
           ↓
 [5] Voice Timing (Groq Whisper)
           ↓
@@ -40,6 +40,7 @@ sleeping_beauty_slop/
 ├── doc_processor.py           # Mistral document processing
 ├── script_writer.py           # Mistral LLM script generation
 ├── voice_generator.py         # Coqui TTS interface
+├── voiceGenElevenLabs.py      # ElevenLabs TTS interface
 ├── image_generator.py         # Flux model via FAL.AI
 ├── VoiceTiming.py             # Groq Whisper for word-level timing
 ├── video_assembly.py          # FFmpeg composition
