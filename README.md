@@ -40,7 +40,7 @@ sleeping_beauty_slop/
 ├── doc_processor.py           # Mistral document processing
 ├── script_writer.py           # Mistral LLM script generation
 ├── voice_generator.py         # Coqui TTS interface
-├── voiceGen_elevenlabs.py     # elevnlabs TTS interface
+├── voiceGen_elevenlabs.py     # elevenlabs
 ├── image_generator.py         # Flux model via FAL.AI
 ├── VoiceTiming.py             # Groq Whisper for word-level timing
 ├── video_assembly.py          # FFmpeg composition
