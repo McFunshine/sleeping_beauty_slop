@@ -1,0 +1,128 @@
+(53) Vaswani, A. Attention is all you need. Advances in Neural Information Processing Sys-
+tems 2017,
+(54) Chase, H. LangChain. 2022; https://github.com/langchain-ai/langchain, Date
+released: 2022-10-17.
+(55) Norinder, U.; Bergstr¨om, C. Prediction of ADMET Properties. ChemMedChem 2006,
+1, 920–937.
+(56) Ferreira, L. L.; Andricopulo, A. D. ADMET modeling approaches in drug discovery.
+Drug Discovery Today 2019, 24, 1157–1165.
+(57) van de Waterbeemd, H.; Giﬀord, E. ADMET in silico modelling: towards prediction
+paradise? Nature Reviews Drug Discovery 2001, 1, 192–204.
+(58) Leeson, P. D.; Springthorpe, B. The inﬂuence of drug-like concepts on decision-making
+in medicinal chemistry. Nature Reviews Drug Discovery 2007, 6, 881–890.
+(59) Elnaggar, A.; Heinzinger, M.; Dallago, C.; Rehawi, G.; Yu, W.; Jones, L.; Gibbs, T.;
+Feher, T.; Angerer, C.; Steinegger, M.; Bhowmik, D.; Rost, B. ProtTrans: Towards
+Cracking the Language of Lifes Code Through Self-Supervised Deep Learning and High
+Performance Computing. IEEE Transactions on Pattern Analysis and Machine Intel-
+ligence 2021, 1–1.
+(60) Ross, J.; Belgodere, B.; Chenthamarakshan, V.; Padhi, I.; Mroueh, Y.; Das, P. Large-
+scale chemical language representations capture molecular structure and properties.
+Nature Machine Intelligence 2022, 4, 1256–1264.
+(61) Wang, B.; Zhang, R.; Zhou, H.; et al. Computing structure-based binding aﬃnity of
+small molecules for drug discovery. Nature Reviews Chemistry 2023, 7, 681–700.
+(62) Cheng, Y.-C.; Prusoﬀ, W. H. The relationship between the inhibition constant (K i)
+31
+S1 Domain-speciﬁc Question Answering
+We conducted an additional evaluation question that examined AgentD’s ability to extrapo-
+late mechanistic ﬁndings to broader therapeutic contexts by asking about the implications of
+combining ABT-199 and proteasome inhibitors for treating solid tumors compared to hema-
+tologic malignancies. This question tests the system’s capacity to synthesize domain-speciﬁc
+knowledge and provide clinically relevant insights beyond the immediate scope of the ref-
+erence paper. Figure S1 shows the actual responses from both AgentD with RAG and the
+standard GPT-4o model to illustrate these diﬀerences in clinical reasoning and mechanistic
+understanding.
+We evaluated responses using the same Weller et al. study, which primarily focuses
+on the mechanistic basis of drug synergy through NOXA upregulation and MCL-1 inhibi-
+tion.S1 While this question extends beyond the paper’s direct experimental scope, it remains
+grounded in the mechanistic principles described in the work. Both AgentD with RAG and
+the standard GPT-4o model were asked to discuss the therapeutic implications for diﬀerent
+cancer types.
+The RAG-augmented response demonstrates superior clinical reasoning by directly con-
+necting the paper’s mechanistic ﬁndings to therapeutic applications. AgentD correctly iden-
+tiﬁes that the combination could “signiﬁcantly impact the treatment of both solid tumors
+and hematologic malignancies” through the dual mechanism of direct BCL-2 inhibition and
+indirect MCL-1 inhibition via NOXA activation. Importantly, the response provides speciﬁc
+examples, noting eﬀectiveness in “solid tumors, such as soft tissue sarcoma” and established
+eﬃcacy in hematologic malignancies including “chronic lymphocytic leukemia and multiple
+myeloma.”
+The RAG response captures the key therapeutic insight that this combination approach
+could “overcome resistance mechanisms involving MCL-1,” which aligns closely with the
+ground truth explanation that the strategy “could potentially overcome intrinsic resistance
+mechanisms in solid tumors that are less dependent on BCL-2 but still rely on MCL-1 for
+S2
+Domain-specific question:
+What are the implications of the findings regarding the combinatorial use of ABT-199 and
+proteasome inhibitors for treating solid tumors compared to hematologic malignancies?
+The findings indicate that combining ABT-199 (venetoclax) with proteasome inhibitors (PIs) could
+significantly impact the treatment of both solid tumors and hematologic malignancies. In solid tumors,
+such as soft tissue sarcoma, this combination synergistically induces apoptosis by activating the pro-
+apoptotic protein NOXA, which inhibits the anti-apoptotic protein MCL-1, enhancing ABT-199's efficacy.
+This dual action—direct BCL-2 inhibition and indirect MCL-1 inhibition—suggests effectiveness in solid
+tumors overexpressing these proteins. In hematologic malignancies, where ABT-199 is already effective,
+particularly in chronic lymphocytic leukemia and multiple myeloma, combining it with PIs could improve
+outcomes by overcoming resistance mechanisms involving MCL-1. These findings support further clinical
+evaluation of this combination in various cancers, potentially expanding therapeutic options for both
+solid and hematologic malignancies.
+AgentD (w/ RAG):
+The findings on the combinatorial use of ABT-199 (venetoclax) and proteasome inhibitors have several
+implications for the treatment of solid tumors compared to hematologic malignancies. Here's a
+breakdown:
+1. Mechanistic Synergy:
+Hematologic Malignancies: ABT-199, a BCL-2 inhibitor, is particularly effective because these cancers
+often rely heavily on the BCL-2 pathway for survival. When combined with proteasome inhibitors, which
+block protein degradation, the apoptotic pathways are further enhanced, leading to increased cancer cell
+death.
+Solid Tumors: These cancers might not be as dependent on BCL-2 as hematologic malignancies.
+However, the combination could still disrupt protein homeostasis and induce apoptosis by targeting
+multiple pathways.
+2. Clinical Efficacy:
+Hematologic Malignancies: Clinical trials have shown promising results due to the high BCL-2
+expression. The combinatorial approach can enhance responses in resistant cases.
+Solid Tumors: The efficacy might be more variable due to the diverse nature of these tumors and their
+reliance on other anti-apoptotic proteins like MCL-1 or BCL-XL.
+Resistance Mechanisms:
+Hematologic Malignancies: Resistance can develop through mutations or upregulation of alternative
+survival pathways.
+Solid Tumors: The diverse genetic landscape means multiple resistance mechanisms could limit
+effectiveness.
+3. Toxicity and Side Effects:
+Combining ABT-199 with proteasome inhibitors can potentially increase toxicity, necessitating careful
+dose optimization and monitoring in both cancer types.
+4. Biomarker Development:
+Identifying biomarkers to predict response can help tailor the combination therapy more effectively,
+particularly in solid tumors where response rates might be heterogeneous.
+5. Future Research Directions:
+Continued research is needed to understand the specific tumor types and settings where this
+combination is most beneficial, and to develop strategies to overcome resistance in solid tumors.
+Overall, while the combination has shown efficacy in hematologic cancers, its application in solid tumors
+requires a nuanced understanding of tumor biology and careful clinical evaluation.
+Standard GPT4o:Figure S1: AgentD response demonstrating domain-speciﬁc question answering capabilities.
+The question extrapolates beyond the direct scope of the source article.
+S3
+survival.” This mechanistic understanding is crucial for clinical translation, as it identiﬁes
+the speciﬁc molecular rationale for why the combination might succeed where single-agent
+BCL-2 inhibition fails.
+In contrast, the standard GPT-4o response, while comprehensive and well-structured,
+provides a generic framework that could apply to virtually any combination therapy discus-
+sion. The response covers broad categories such as “mechanistic synergy,” “clinical eﬃcacy,”
+and “resistance mechanisms” but fails to reference the speciﬁc NOXA-mediated pathway
+that makes this particular combination therapeutically promising. Critical omissions in-
+clude the ISR activation, ATF3/ATF4 transcriptional regulation, and the speciﬁc role of
+MCL-1 inhibition in overcoming resistance.
+The standard response does acknowledge that “solid tumors might not be as dependent
+on BCL-2 as hematologic malignancies” and mentions reliance on “other anti-apoptotic
+proteins like MCL-1 or BCL-XL,” but it lacks the mechanistic foundation to explain how the
+combination speciﬁcally addresses these dependencies. This represents a missed opportunity
+to provide actionable clinical insights based on the underlying biology.
+Furthermore, while the standard response discusses general considerations such as toxic-
+ity management and biomarker development, it does so without the mechanistic context that
+would guide these clinical decisions. The RAG response, by contrast, grounds its recommen-
+dations in the speciﬁc ﬁndings about NOXA upregulation and MCL-1 inhibition, providing
+a more targeted foundation for clinical development.
+This evaluation demonstrates that even for questions that extend beyond the immediate
+experimental scope of the reference literature, RAG-augmented responses maintain superior
+clinical relevance by preserving the mechanistic foundation that underlies therapeutic poten-
+tial. The ability to connect speciﬁc molecular mechanisms to broader therapeutic applica-
+tions represents a critical advantage for biomedical question answering systems, particularly
+in translational research contexts where mechanistic understanding directly informs clinical
+strategy.

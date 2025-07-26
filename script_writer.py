@@ -1,30 +1,28 @@
 """Script writer module - Generate engaging scripts with Mistral LLM"""
-
+import utils as ut
+import os
 
 class ScriptWriter:
     """Generate TikTok-style scripts from research"""
     
-    def __init__(self):
-        self.prompt_template = """
-You're an AI scriptwriter for TikTok videos. 
-You take boring research and turn it into short, dramatic, or funny monologues that sound like something a curious and slightly unhinged narrator would say. 
+    def __init__(self, prompt_file_path: str):
+        """
+        Initialize the ScriptWriter with a prompt template.
 
-Here's the research abstract:
-{abstract}
+        Args:
+            prompt_file_path (str): Path to the file containing the prompt template.
+        """
+        self.prompt_template = ut.read_prompt_file(prompt_file_path)
 
-Now turn that into a 30–60 second video script with:
-- A dramatic or funny hook (first line)
-- A surprising twist
-- A weird fact
-- A closing line with flair
-"""
-    
-    def generate_script(self, abstract, key_points):
+
+    def generate_script(self, key_points):
         """Generate engaging script from paper content"""
-        # TODO: Call Mistral LLM with prompt
-        pass
+        prompt = f"{self.prompt_template}\n\n{key_points}"
+        return ut.call_mistral_api(prompt, api_key=os.getenv("MISTRAL_API_KEY"))
+
     
     def segment_script(self, script):
         """Segment script for image generation"""
-        # TODO: Split script into 3-4 logical segments
-        pass
+        script_parts = script.split("\n")
+
+        return [elm for elm in script_parts[2:-1] if len(elm) > 20 and elm[0] != "*"]

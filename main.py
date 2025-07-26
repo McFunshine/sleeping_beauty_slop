@@ -8,13 +8,14 @@ import argparse
 import sys
 from pathlib import Path
 
-from paper_fetcher import PaperFetcher
+# from paper_fetcher import PaperFetcher
 from doc_processor import DocProcessor
 from script_writer import ScriptWriter
-from voice_generator import VoiceGenerator
+# from voice_generator import VoiceGenerator
 from image_generator import ImageGenerator
-from voice_timing import VoiceTiming
-from video_assembly import VideoAssembler
+# from voice_timing import VoiceTiming
+# from video_assembly import VideoAssembler
+import utils as ut
 
 
 def main():
@@ -33,15 +34,35 @@ def main():
     
     print("Starting AI Slop for Good pipeline...")
     
-    # TODO: Implement pipeline stages
     # 1. Fetch paper
+    # TODO
+
     # 2. Process document
+    print("Processing document...")
+    doc_processor = DocProcessor("assets/prompts/extract_paper_info_prompt_only_abstract.txt")
+    key_points = doc_processor.extract_key_points(ut.get_paper_text("article_sample.txt"))
+
     # 3. Generate script
-    # 4. Generate voice
-    # 5. Generate images
-    # 6. Create voice timing
-    # 7. Assemble video
+    print("Generating script...")
+    script_writer = ScriptWriter("assets/prompts/script_writing_prompt_genz_30_secs.txt")
+    script = script_writer.generate_script(key_points)
+    script_segments=script_writer.segment_script(script)
     
+    # 4. Generate voice
+    # TODO
+
+    # 5. Generate images
+    print("Generating images...")
+    image_generator = ImageGenerator()
+    image_generator.generate_images(script_segments)
+
+    # 6. Create voice timing
+    # TODO
+
+
+    # 7. Assemble video
+    # TODO
+
     print(f"Video created at: {args.output}")
 
 

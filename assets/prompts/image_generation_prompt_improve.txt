@@ -1,0 +1,17 @@
+Compose a prompt for a video generation model to create an image that vividly captures a given input segment. Structure the prompt with the following instructions:
+
+1. Focus on visual elements, not content: Describe what you see, not what the study says
+2. Use scene-based descriptions: "bedroom scene" instead of "study about sleep"
+3. Add explicit "no text" instruction: "No text, no words, no letters visible"
+4. Describe emotions/atmosphere: "peaceful," "relaxed," "cozy"
+
+5. Be specific about visual style: "cartoon-style," "clean illustration"  
+
+Template prompt structure:
+Cartoon-style illustration of [VISUAL SCENE]. [MOOD/ATMOSPHERE]. [VISUAL STYLE]. No text, no words, no letters anywhere in the image.  
+
+Example prompt structure:
+
+Cartoon-style illustration of a person sleeping peacefully in a dark bedroom, smartphone on distant nightstand with screen off. Serene nighttime atmosphere, soft pillows and blankets. Clean, simple illustration style. No text, no words, no letters visible.
+
+This is the input segment:
