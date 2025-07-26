@@ -44,7 +44,8 @@ def main():
     # 2. Process document
     print("Processing document...")
     doc_processor = DocProcessor("assets/prompts/extract_paper_info_prompt_only_abstract.txt")
-    key_points = doc_processor.extract_key_points(ut.get_paper_text("article_sample.txt"))
+    # key_points = doc_processor.extract_key_points(ut.get_paper_text("article_sample.txt"))
+    key_points = doc_processor.extract_key_points(ut.get_paper_text("neurips_2023.txt"))
 
     # 3. Generate script
     print("Generating script...")

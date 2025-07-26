@@ -1,898 +1,562 @@
 {
-  "text": " Sure thing. Let's use this summary. Researchers studied the effects of blue light from screens on sleep quality. They monitored two groups, one using screens before bed and another avoiding them. The screen-using group took longer to fall asleep and had less REM sleep. Hook Ever wondered why you're scrolling till 2 a.m. and still wide awake? What the study did Scientists put two groups to the test, one chilling with screens before bed, the other going old school with books. What they found. Turns out, screen lovers took forever to fall asleep and missed out on that sweet, sweet REM action. Why it matters. So, if you want to sleep like a baby, maybe give your phone a bedtime too. Call to action. Follow for more science in 30 seconds.",
+  "text": " Ever wished you could train a massive AI on your laptop? Scientists just made it possible. They took a huge language model and squeezed it down to use way less memory. How? By quantizing it to 4-bit and adding some clever tricks. The result? They fine-tuned a 65B parameter model on a single GPU in under 24 hours, nearly matching ChatGPT's performance. This means better chatbots and smarter AI on regular hardware. Follow for more science in 30 seconds.",
   "word_timings": [
     {
-      "word": "Sure",
-      "start": 0.16,
-      "end": 0.32,
-      "duration": 0.16
-    },
-    {
-      "word": "thing.",
-      "start": 0.32,
-      "end": 0.92,
-      "duration": 0.6000000000000001
-    },
-    {
-      "word": "Let's",
-      "start": 0.92,
-      "end": 1.82,
-      "duration": 0.9
-    },
-    {
-      "word": "use",
-      "start": 1.82,
-      "end": 1.98,
-      "duration": 0.15999999999999992
-    },
-    {
-      "word": "this",
-      "start": 1.98,
-      "end": 2.2,
-      "duration": 0.2200000000000002
-    },
-    {
-      "word": "summary.",
-      "start": 2.2,
-      "end": 2.8,
-      "duration": 0.5999999999999996
-    },
-    {
-      "word": "Researchers",
-      "start": 2.8,
-      "end": 3.56,
-      "duration": 0.7600000000000002
-    },
-    {
-      "word": "studied",
-      "start": 3.56,
-      "end": 4.14,
-      "duration": 0.5799999999999996
-    },
-    {
-      "word": "the",
-      "start": 4.14,
-      "end": 4.32,
-      "duration": 0.1800000000000006
-    },
-    {
-      "word": "effects",
-      "start": 4.32,
-      "end": 4.62,
-      "duration": 0.2999999999999998
-    },
-    {
-      "word": "of",
-      "start": 4.62,
-      "end": 4.82,
-      "duration": 0.20000000000000018
-    },
-    {
-      "word": "blue",
-      "start": 4.82,
-      "end": 5.02,
-      "duration": 0.1999999999999993
-    },
-    {
-      "word": "light",
-      "start": 5.02,
-      "end": 5.26,
-      "duration": 0.2400000000000002
-    },
-    {
-      "word": "from",
-      "start": 5.26,
-      "end": 5.48,
-      "duration": 0.22000000000000064
-    },
-    {
-      "word": "screens",
-      "start": 5.48,
-      "end": 5.78,
-      "duration": 0.2999999999999998
-    },
-    {
-      "word": "on",
-      "start": 5.78,
-      "end": 6.0,
-      "duration": 0.21999999999999975
-    },
-    {
-      "word": "sleep",
-      "start": 6.0,
-      "end": 6.24,
-      "duration": 0.2400000000000002
-    },
-    {
-      "word": "quality.",
-      "start": 6.24,
-      "end": 6.64,
-      "duration": 0.39999999999999947
-    },
-    {
-      "word": "They",
-      "start": 7.3,
-      "end": 7.46,
-      "duration": 0.16000000000000014
-    },
-    {
-      "word": "monitored",
-      "start": 7.46,
-      "end": 7.84,
-      "duration": 0.3799999999999999
-    },
-    {
-      "word": "two",
-      "start": 7.84,
-      "end": 8.1,
-      "duration": 0.2599999999999998
-    },
-    {
-      "word": "groups,",
-      "start": 8.1,
-      "end": 8.74,
-      "duration": 0.6400000000000006
-    },
-    {
-      "word": "one",
-      "start": 8.74,
-      "end": 9.06,
-      "duration": 0.3200000000000003
-    },
-    {
-      "word": "using",
-      "start": 9.06,
-      "end": 9.32,
-      "duration": 0.2599999999999998
-    },
-    {
-      "word": "screens",
-      "start": 9.32,
-      "end": 9.68,
-      "duration": 0.35999999999999943
-    },
-    {
-      "word": "before",
-      "start": 9.68,
-      "end": 10.0,
-      "duration": 0.3200000000000003
-    },
-    {
-      "word": "bed",
-      "start": 10.0,
-      "end": 10.36,
-      "duration": 0.35999999999999943
-    },
-    {
-      "word": "and",
-      "start": 10.36,
-      "end": 10.88,
-      "duration": 0.5200000000000014
-    },
-    {
-      "word": "another",
-      "start": 10.88,
-      "end": 11.12,
-      "duration": 0.23999999999999844
-    },
-    {
-      "word": "avoiding",
-      "start": 11.12,
-      "end": 11.5,
-      "duration": 0.3800000000000008
-    },
-    {
-      "word": "them.",
-      "start": 11.5,
-      "end": 11.84,
-      "duration": 0.33999999999999986
-    },
-    {
-      "word": "The",
-      "start": 12.4,
-      "end": 12.54,
-      "duration": 0.1399999999999988
-    },
-    {
-      "word": "screen-using",
-      "start": 12.54,
-      "end": 13.04,
-      "duration": 0.5
-    },
-    {
-      "word": "group",
-      "start": 13.04,
-      "end": 13.34,
-      "duration": 0.3000000000000007
-    },
-    {
-      "word": "took",
-      "start": 13.34,
-      "end": 13.54,
-      "duration": 0.1999999999999993
-    },
-    {
-      "word": "longer",
-      "start": 13.54,
-      "end": 13.86,
-      "duration": 0.3200000000000003
-    },
-    {
-      "word": "to",
-      "start": 13.86,
-      "end": 14.08,
-      "duration": 0.22000000000000064
-    },
-    {
-      "word": "fall",
-      "start": 14.08,
-      "end": 14.28,
-      "duration": 0.1999999999999993
-    },
-    {
-      "word": "asleep",
-      "start": 14.28,
-      "end": 14.64,
-      "duration": 0.3600000000000012
-    },
-    {
-      "word": "and",
-      "start": 14.64,
-      "end": 15.14,
-      "duration": 0.5
-    },
-    {
-      "word": "had",
-      "start": 15.14,
-      "end": 15.3,
-      "duration": 0.16000000000000014
-    },
-    {
-      "word": "less",
-      "start": 15.3,
-      "end": 15.66,
-      "duration": 0.35999999999999943
-    },
-    {
-      "word": "REM",
-      "start": 15.66,
-      "end": 16.04,
-      "duration": 0.379999999999999
-    },
-    {
-      "word": "sleep.",
-      "start": 16.04,
-      "end": 16.46,
-      "duration": 0.4200000000000017
-    },
-    {
-      "word": "Hook",
-      "start": 18.56,
-      "end": 18.78,
-      "duration": 0.22000000000000242
-    },
-    {
       "word": "Ever",
-      "start": 21.5,
-      "end": 21.68,
-      "duration": 0.17999999999999972
+      "start": 0.16,
+      "end": 0.34,
+      "duration": 0.18000000000000002
     },
     {
-      "word": "wondered",
-      "start": 21.68,
-      "end": 22.02,
-      "duration": 0.33999999999999986
-    },
-    {
-      "word": "why",
-      "start": 22.02,
-      "end": 22.24,
-      "duration": 0.21999999999999886
-    },
-    {
-      "word": "you're",
-      "start": 22.24,
-      "end": 22.4,
-      "duration": 0.16000000000000014
-    },
-    {
-      "word": "scrolling",
-      "start": 22.4,
-      "end": 22.74,
-      "duration": 0.33999999999999986
-    },
-    {
-      "word": "till",
-      "start": 22.74,
-      "end": 22.98,
-      "duration": 0.240000000000002
-    },
-    {
-      "word": "2",
-      "start": 22.98,
-      "end": 23.32,
-      "duration": 0.33999999999999986
-    },
-    {
-      "word": "a.m.",
-      "start": 23.32,
-      "end": 23.7,
-      "duration": 0.379999999999999
-    },
-    {
-      "word": "and",
-      "start": 23.7,
-      "end": 23.82,
-      "duration": 0.120000000000001
-    },
-    {
-      "word": "still",
-      "start": 23.82,
-      "end": 24.06,
-      "duration": 0.23999999999999844
-    },
-    {
-      "word": "wide",
-      "start": 24.06,
-      "end": 24.34,
-      "duration": 0.28000000000000114
-    },
-    {
-      "word": "awake?",
-      "start": 24.34,
-      "end": 24.62,
-      "duration": 0.28000000000000114
-    },
-    {
-      "word": "What",
-      "start": 26.04,
-      "end": 26.2,
-      "duration": 0.16000000000000014
-    },
-    {
-      "word": "the",
-      "start": 26.2,
-      "end": 26.34,
-      "duration": 0.14000000000000057
-    },
-    {
-      "word": "study",
-      "start": 26.34,
-      "end": 26.62,
-      "duration": 0.28000000000000114
-    },
-    {
-      "word": "did",
-      "start": 26.62,
-      "end": 26.86,
-      "duration": 0.23999999999999844
-    },
-    {
-      "word": "Scientists",
-      "start": 28.46,
-      "end": 28.66,
-      "duration": 0.1999999999999993
-    },
-    {
-      "word": "put",
-      "start": 28.66,
-      "end": 29.08,
-      "duration": 0.41999999999999815
-    },
-    {
-      "word": "two",
-      "start": 29.08,
-      "end": 29.34,
-      "duration": 0.26000000000000156
-    },
-    {
-      "word": "groups",
-      "start": 29.34,
-      "end": 29.6,
-      "duration": 0.26000000000000156
-    },
-    {
-      "word": "to",
-      "start": 29.6,
-      "end": 29.84,
-      "duration": 0.23999999999999844
-    },
-    {
-      "word": "the",
-      "start": 29.84,
-      "end": 29.96,
-      "duration": 0.120000000000001
-    },
-    {
-      "word": "test,",
-      "start": 29.96,
-      "end": 30.48,
-      "duration": 0.5199999999999996
-    },
-    {
-      "word": "one",
-      "start": 30.48,
-      "end": 30.78,
-      "duration": 0.3000000000000007
-    },
-    {
-      "word": "chilling",
-      "start": 30.78,
-      "end": 31.1,
-      "duration": 0.3200000000000003
-    },
-    {
-      "word": "with",
-      "start": 31.1,
-      "end": 31.3,
-      "duration": 0.1999999999999993
-    },
-    {
-      "word": "screens",
-      "start": 31.3,
-      "end": 31.62,
-      "duration": 0.3200000000000003
-    },
-    {
-      "word": "before",
-      "start": 31.62,
-      "end": 31.92,
-      "duration": 0.3000000000000007
-    },
-    {
-      "word": "bed,",
-      "start": 31.92,
-      "end": 32.42,
-      "duration": 0.5
-    },
-    {
-      "word": "the",
-      "start": 32.42,
-      "end": 32.8,
-      "duration": 0.37999999999999545
-    },
-    {
-      "word": "other",
-      "start": 32.8,
-      "end": 32.98,
-      "duration": 0.17999999999999972
-    },
-    {
-      "word": "going",
-      "start": 32.98,
-      "end": 33.26,
-      "duration": 0.28000000000000114
-    },
-    {
-      "word": "old",
-      "start": 33.26,
-      "end": 33.54,
-      "duration": 0.28000000000000114
-    },
-    {
-      "word": "school",
-      "start": 33.54,
-      "end": 33.8,
-      "duration": 0.259999999999998
-    },
-    {
-      "word": "with",
-      "start": 33.8,
-      "end": 34.04,
-      "duration": 0.240000000000002
-    },
-    {
-      "word": "books.",
-      "start": 34.04,
-      "end": 34.38,
-      "duration": 0.3400000000000034
-    },
-    {
-      "word": "What",
-      "start": 36.1,
-      "end": 36.24,
-      "duration": 0.14000000000000057
-    },
-    {
-      "word": "they",
-      "start": 36.24,
-      "end": 36.38,
-      "duration": 0.14000000000000057
-    },
-    {
-      "word": "found.",
-      "start": 36.38,
-      "end": 36.86,
-      "duration": 0.4799999999999969
-    },
-    {
-      "word": "Turns",
-      "start": 38.04,
-      "end": 38.26,
-      "duration": 0.21999999999999886
-    },
-    {
-      "word": "out,",
-      "start": 38.26,
-      "end": 38.94,
-      "duration": 0.6799999999999997
-    },
-    {
-      "word": "screen",
-      "start": 38.94,
-      "end": 39.16,
-      "duration": 0.21999999999999886
-    },
-    {
-      "word": "lovers",
-      "start": 39.16,
-      "end": 39.4,
-      "duration": 0.240000000000002
-    },
-    {
-      "word": "took",
-      "start": 39.4,
-      "end": 39.68,
-      "duration": 0.28000000000000114
-    },
-    {
-      "word": "forever",
-      "start": 39.68,
-      "end": 40.0,
-      "duration": 0.3200000000000003
-    },
-    {
-      "word": "to",
-      "start": 40.0,
-      "end": 40.22,
-      "duration": 0.21999999999999886
-    },
-    {
-      "word": "fall",
-      "start": 40.22,
-      "end": 40.44,
-      "duration": 0.21999999999999886
-    },
-    {
-      "word": "asleep",
-      "start": 40.44,
-      "end": 40.74,
-      "duration": 0.30000000000000426
-    },
-    {
-      "word": "and",
-      "start": 40.74,
-      "end": 41.06,
-      "duration": 0.3200000000000003
-    },
-    {
-      "word": "missed",
-      "start": 41.06,
-      "end": 41.28,
-      "duration": 0.21999999999999886
-    },
-    {
-      "word": "out",
-      "start": 41.28,
-      "end": 41.46,
-      "duration": 0.17999999999999972
-    },
-    {
-      "word": "on",
-      "start": 41.46,
-      "end": 41.66,
-      "duration": 0.19999999999999574
-    },
-    {
-      "word": "that",
-      "start": 41.66,
-      "end": 41.8,
-      "duration": 0.14000000000000057
-    },
-    {
-      "word": "sweet,",
-      "start": 41.8,
-      "end": 42.24,
-      "duration": 0.44000000000000483
-    },
-    {
-      "word": "sweet",
-      "start": 42.24,
-      "end": 42.84,
-      "duration": 0.6000000000000014
-    },
-    {
-      "word": "REM",
-      "start": 42.84,
-      "end": 43.2,
-      "duration": 0.35999999999999943
-    },
-    {
-      "word": "action.",
-      "start": 43.2,
-      "end": 43.66,
-      "duration": 0.45999999999999375
-    },
-    {
-      "word": "Why",
-      "start": 45.0,
-      "end": 45.22,
-      "duration": 0.21999999999999886
-    },
-    {
-      "word": "it",
-      "start": 45.22,
-      "end": 45.36,
-      "duration": 0.14000000000000057
-    },
-    {
-      "word": "matters.",
-      "start": 45.36,
-      "end": 45.72,
-      "duration": 0.35999999999999943
-    },
-    {
-      "word": "So,",
-      "start": 47.38,
-      "end": 47.88,
-      "duration": 0.5
-    },
-    {
-      "word": "if",
-      "start": 47.88,
-      "end": 47.92,
-      "duration": 0.03999999999999915
+      "word": "wished",
+      "start": 0.34,
+      "end": 0.66,
+      "duration": 0.32
     },
     {
       "word": "you",
-      "start": 47.92,
-      "end": 48.02,
-      "duration": 0.10000000000000142
+      "start": 0.66,
+      "end": 0.84,
+      "duration": 0.17999999999999994
     },
     {
-      "word": "want",
-      "start": 48.02,
-      "end": 48.14,
-      "duration": 0.11999999999999744
+      "word": "could",
+      "start": 0.84,
+      "end": 0.98,
+      "duration": 0.14
     },
     {
-      "word": "to",
-      "start": 48.14,
-      "end": 48.26,
-      "duration": 0.11999999999999744
-    },
-    {
-      "word": "sleep",
-      "start": 48.26,
-      "end": 48.4,
-      "duration": 0.14000000000000057
-    },
-    {
-      "word": "like",
-      "start": 48.4,
-      "end": 48.6,
-      "duration": 0.20000000000000284
+      "word": "train",
+      "start": 0.98,
+      "end": 1.28,
+      "duration": 0.30000000000000004
     },
     {
       "word": "a",
-      "start": 48.6,
-      "end": 48.72,
-      "duration": 0.11999999999999744
+      "start": 1.28,
+      "end": 1.46,
+      "duration": 0.17999999999999994
     },
     {
-      "word": "baby,",
-      "start": 48.72,
-      "end": 49.22,
-      "duration": 0.5
+      "word": "massive",
+      "start": 1.46,
+      "end": 1.8,
+      "duration": 0.3400000000000001
     },
     {
-      "word": "maybe",
-      "start": 49.22,
-      "end": 49.56,
-      "duration": 0.3400000000000034
+      "word": "AI",
+      "start": 1.8,
+      "end": 2.2,
+      "duration": 0.40000000000000013
     },
     {
-      "word": "give",
-      "start": 49.56,
-      "end": 49.78,
-      "duration": 0.21999999999999886
+      "word": "on",
+      "start": 2.2,
+      "end": 2.48,
+      "duration": 0.2799999999999998
     },
     {
       "word": "your",
-      "start": 49.78,
-      "end": 49.94,
-      "duration": 0.1599999999999966
+      "start": 2.48,
+      "end": 2.62,
+      "duration": 0.14000000000000012
     },
     {
-      "word": "phone",
-      "start": 49.94,
-      "end": 50.08,
-      "duration": 0.14000000000000057
+      "word": "laptop?",
+      "start": 2.62,
+      "end": 2.96,
+      "duration": 0.33999999999999986
+    },
+    {
+      "word": "Scientists",
+      "start": 3.7,
+      "end": 3.98,
+      "duration": 0.2799999999999998
+    },
+    {
+      "word": "just",
+      "start": 3.98,
+      "end": 4.36,
+      "duration": 0.38000000000000034
+    },
+    {
+      "word": "made",
+      "start": 4.36,
+      "end": 4.56,
+      "duration": 0.1999999999999993
+    },
+    {
+      "word": "it",
+      "start": 4.56,
+      "end": 4.68,
+      "duration": 0.1200000000000001
+    },
+    {
+      "word": "possible.",
+      "start": 4.68,
+      "end": 5.06,
+      "duration": 0.3799999999999999
+    },
+    {
+      "word": "They",
+      "start": 5.56,
+      "end": 5.68,
+      "duration": 0.1200000000000001
+    },
+    {
+      "word": "took",
+      "start": 5.68,
+      "end": 5.84,
+      "duration": 0.16000000000000014
     },
     {
       "word": "a",
-      "start": 50.08,
-      "end": 50.26,
+      "start": 5.84,
+      "end": 5.96,
+      "duration": 0.1200000000000001
+    },
+    {
+      "word": "huge",
+      "start": 5.96,
+      "end": 6.24,
+      "duration": 0.28000000000000025
+    },
+    {
+      "word": "language",
+      "start": 6.24,
+      "end": 6.62,
+      "duration": 0.3799999999999999
+    },
+    {
+      "word": "model",
+      "start": 6.62,
+      "end": 6.96,
+      "duration": 0.33999999999999986
+    },
+    {
+      "word": "and",
+      "start": 6.96,
+      "end": 7.14,
       "duration": 0.17999999999999972
     },
     {
-      "word": "bedtime",
-      "start": 50.26,
-      "end": 50.52,
-      "duration": 0.2600000000000051
+      "word": "squeezed",
+      "start": 7.14,
+      "end": 7.44,
+      "duration": 0.3000000000000007
     },
     {
-      "word": "too.",
-      "start": 50.52,
-      "end": 50.92,
-      "duration": 0.3999999999999986
+      "word": "it",
+      "start": 7.44,
+      "end": 7.68,
+      "duration": 0.23999999999999932
     },
     {
-      "word": "Call",
-      "start": 51.96,
-      "end": 52.18,
-      "duration": 0.21999999999999886
+      "word": "down",
+      "start": 7.68,
+      "end": 7.96,
+      "duration": 0.28000000000000025
     },
     {
       "word": "to",
-      "start": 52.18,
-      "end": 52.32,
+      "start": 7.96,
+      "end": 8.16,
+      "duration": 0.20000000000000018
+    },
+    {
+      "word": "use",
+      "start": 8.16,
+      "end": 8.36,
+      "duration": 0.1999999999999993
+    },
+    {
+      "word": "way",
+      "start": 8.36,
+      "end": 8.62,
+      "duration": 0.2599999999999998
+    },
+    {
+      "word": "less",
+      "start": 8.62,
+      "end": 8.9,
+      "duration": 0.28000000000000114
+    },
+    {
+      "word": "memory.",
+      "start": 8.9,
+      "end": 9.46,
+      "duration": 0.5600000000000005
+    },
+    {
+      "word": "How?",
+      "start": 9.82,
+      "end": 10.22,
+      "duration": 0.40000000000000036
+    },
+    {
+      "word": "By",
+      "start": 10.76,
+      "end": 10.92,
+      "duration": 0.16000000000000014
+    },
+    {
+      "word": "quantizing",
+      "start": 10.92,
+      "end": 11.46,
+      "duration": 0.5400000000000009
+    },
+    {
+      "word": "it",
+      "start": 11.46,
+      "end": 11.7,
+      "duration": 0.23999999999999844
+    },
+    {
+      "word": "to",
+      "start": 11.7,
+      "end": 11.84,
       "duration": 0.14000000000000057
     },
     {
-      "word": "action.",
-      "start": 52.32,
-      "end": 52.64,
-      "duration": 0.3200000000000003
+      "word": "4-bit",
+      "start": 11.84,
+      "end": 12.36,
+      "duration": 0.5199999999999996
     },
     {
-      "word": "Follow",
-      "start": 53.44,
-      "end": 53.68,
-      "duration": 0.240000000000002
+      "word": "and",
+      "start": 12.36,
+      "end": 12.66,
+      "duration": 0.3000000000000007
     },
     {
-      "word": "for",
-      "start": 53.68,
-      "end": 53.86,
-      "duration": 0.17999999999999972
+      "word": "adding",
+      "start": 12.66,
+      "end": 12.92,
+      "duration": 0.2599999999999998
     },
     {
-      "word": "more",
-      "start": 53.86,
-      "end": 54.0,
-      "duration": 0.14000000000000057
+      "word": "some",
+      "start": 12.92,
+      "end": 13.14,
+      "duration": 0.22000000000000064
     },
     {
-      "word": "science",
-      "start": 54.0,
-      "end": 54.32,
+      "word": "clever",
+      "start": 13.14,
+      "end": 13.4,
+      "duration": 0.2599999999999998
+    },
+    {
+      "word": "tricks.",
+      "start": 13.4,
+      "end": 13.82,
+      "duration": 0.41999999999999993
+    },
+    {
+      "word": "The",
+      "start": 14.4,
+      "end": 14.54,
+      "duration": 0.1399999999999988
+    },
+    {
+      "word": "result?",
+      "start": 14.54,
+      "end": 14.84,
+      "duration": 0.3000000000000007
+    },
+    {
+      "word": "They",
+      "start": 15.58,
+      "end": 15.7,
+      "duration": 0.11999999999999922
+    },
+    {
+      "word": "fine-tuned",
+      "start": 15.7,
+      "end": 16.24,
+      "duration": 0.5399999999999991
+    },
+    {
+      "word": "a",
+      "start": 16.24,
+      "end": 16.42,
+      "duration": 0.18000000000000327
+    },
+    {
+      "word": "65B",
+      "start": 16.42,
+      "end": 17.08,
+      "duration": 0.6599999999999966
+    },
+    {
+      "word": "parameter",
+      "start": 17.08,
+      "end": 17.44,
+      "duration": 0.360000000000003
+    },
+    {
+      "word": "model",
+      "start": 17.44,
+      "end": 17.9,
+      "duration": 0.4599999999999973
+    },
+    {
+      "word": "on",
+      "start": 17.9,
+      "end": 18.18,
+      "duration": 0.28000000000000114
+    },
+    {
+      "word": "a",
+      "start": 18.18,
+      "end": 18.28,
+      "duration": 0.10000000000000142
+    },
+    {
+      "word": "single",
+      "start": 18.28,
+      "end": 18.58,
+      "duration": 0.29999999999999716
+    },
+    {
+      "word": "GPU",
+      "start": 18.58,
+      "end": 18.9,
       "duration": 0.3200000000000003
     },
     {
       "word": "in",
-      "start": 54.32,
-      "end": 54.5,
+      "start": 18.9,
+      "end": 19.42,
+      "duration": 0.5200000000000031
+    },
+    {
+      "word": "under",
+      "start": 19.42,
+      "end": 19.64,
+      "duration": 0.21999999999999886
+    },
+    {
+      "word": "24",
+      "start": 19.64,
+      "end": 20.14,
+      "duration": 0.5
+    },
+    {
+      "word": "hours,",
+      "start": 20.14,
+      "end": 20.78,
+      "duration": 0.6400000000000006
+    },
+    {
+      "word": "nearly",
+      "start": 21.04,
+      "end": 21.28,
+      "duration": 0.240000000000002
+    },
+    {
+      "word": "matching",
+      "start": 21.28,
+      "end": 21.7,
+      "duration": 0.41999999999999815
+    },
+    {
+      "word": "ChatGPT's",
+      "start": 21.7,
+      "end": 22.66,
+      "duration": 0.9600000000000009
+    },
+    {
+      "word": "performance.",
+      "start": 22.66,
+      "end": 23.06,
+      "duration": 0.3999999999999986
+    },
+    {
+      "word": "This",
+      "start": 23.84,
+      "end": 24.02,
       "duration": 0.17999999999999972
+    },
+    {
+      "word": "means",
+      "start": 24.02,
+      "end": 24.2,
+      "duration": 0.17999999999999972
+    },
+    {
+      "word": "better",
+      "start": 24.2,
+      "end": 24.5,
+      "duration": 0.3000000000000007
+    },
+    {
+      "word": "chatbots",
+      "start": 24.5,
+      "end": 25.1,
+      "duration": 0.6000000000000014
+    },
+    {
+      "word": "and",
+      "start": 25.1,
+      "end": 25.28,
+      "duration": 0.17999999999999972
+    },
+    {
+      "word": "smarter",
+      "start": 25.28,
+      "end": 25.58,
+      "duration": 0.29999999999999716
+    },
+    {
+      "word": "AI",
+      "start": 25.58,
+      "end": 25.86,
+      "duration": 0.28000000000000114
+    },
+    {
+      "word": "on",
+      "start": 25.86,
+      "end": 26.24,
+      "duration": 0.379999999999999
+    },
+    {
+      "word": "regular",
+      "start": 26.24,
+      "end": 26.54,
+      "duration": 0.3000000000000007
+    },
+    {
+      "word": "hardware.",
+      "start": 26.54,
+      "end": 27.28,
+      "duration": 0.740000000000002
+    },
+    {
+      "word": "Follow",
+      "start": 27.62,
+      "end": 27.86,
+      "duration": 0.23999999999999844
+    },
+    {
+      "word": "for",
+      "start": 27.86,
+      "end": 28.06,
+      "duration": 0.1999999999999993
+    },
+    {
+      "word": "more",
+      "start": 28.06,
+      "end": 28.22,
+      "duration": 0.16000000000000014
+    },
+    {
+      "word": "science",
+      "start": 28.22,
+      "end": 28.62,
+      "duration": 0.40000000000000213
+    },
+    {
+      "word": "in",
+      "start": 28.62,
+      "end": 28.82,
+      "duration": 0.1999999999999993
     },
     {
       "word": "30",
-      "start": 54.5,
-      "end": 54.68,
-      "duration": 0.17999999999999972
+      "start": 28.82,
+      "end": 29.02,
+      "duration": 0.1999999999999993
     },
     {
       "word": "seconds.",
-      "start": 54.68,
-      "end": 55.08,
-      "duration": 0.3999999999999986
+      "start": 29.02,
+      "end": 29.92,
+      "duration": 0.9000000000000021
     }
   ],
   "segments": [
     {
-      "text": "Sure thing. Let's use this summary. Researchers studied the effects of blue light from screens on sleep quality.",
+      "text": "Ever wished you could train a massive AI on your laptop?",
       "start": 0.0,
-      "end": 6.74,
-      "duration": 6.74,
-      "avg_logprob": -0.16764541,
-      "no_speech_prob": 5.993531e-13
+      "end": 3.0,
+      "duration": 3.0,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     },
     {
-      "text": "They monitored two groups, one using screens before bed and another avoiding them.",
-      "start": 7.36,
-      "end": 11.88,
-      "duration": 4.5200000000000005,
-      "avg_logprob": -0.16764541,
-      "no_speech_prob": 5.993531e-13
+      "text": "Scientists just made it possible.",
+      "start": 3.72,
+      "end": 5.1,
+      "duration": 1.3799999999999994,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     },
     {
-      "text": "The screen-using group took longer to fall asleep and had less REM sleep.",
-      "start": 12.42,
-      "end": 16.54,
-      "duration": 4.119999999999999,
-      "avg_logprob": -0.16764541,
-      "no_speech_prob": 5.993531e-13
+      "text": "They took a huge language model and squeezed it down to use way less memory.",
+      "start": 5.58,
+      "end": 9.3,
+      "duration": 3.7200000000000006,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     },
     {
-      "text": "Hook",
-      "start": 18.58,
-      "end": 18.88,
-      "duration": 0.3000000000000007,
-      "avg_logprob": -0.16764541,
-      "no_speech_prob": 5.993531e-13
+      "text": "How?",
+      "start": 9.84,
+      "end": 10.08,
+      "duration": 0.2400000000000002,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     },
     {
-      "text": "Ever wondered why you're scrolling till 2 a.m. and still wide awake?",
-      "start": 18.88,
-      "end": 24.74,
-      "duration": 5.859999999999999,
-      "avg_logprob": -0.16764541,
-      "no_speech_prob": 5.993531e-13
+      "text": "By quantizing it to 4-bit and adding some clever tricks.",
+      "start": 10.7,
+      "end": 13.86,
+      "duration": 3.16,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     },
     {
-      "text": "What the study did",
-      "start": 25.64,
-      "end": 26.94,
-      "duration": 1.3000000000000007,
-      "avg_logprob": -0.16764541,
-      "no_speech_prob": 5.993531e-13
+      "text": "The result?",
+      "start": 14.4,
+      "end": 14.86,
+      "duration": 0.4599999999999991,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     },
     {
-      "text": "Scientists put two groups to the test, one chilling with screens before bed, the other going old school with books.",
-      "start": 26.94,
-      "end": 34.44,
-      "duration": 7.4999999999999964,
-      "avg_logprob": -0.2037208,
-      "no_speech_prob": 1.803832e-12
+      "text": "They fine-tuned a 65B parameter model on a single GPU in under 24 hours,",
+      "start": 15.52,
+      "end": 20.62,
+      "duration": 5.100000000000001,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     },
     {
-      "text": "What they found.",
-      "start": 35.74,
-      "end": 36.84,
-      "duration": 1.1000000000000014,
-      "avg_logprob": -0.2037208,
-      "no_speech_prob": 1.803832e-12
+      "text": "nearly matching ChatGPT's performance.",
+      "start": 21.04,
+      "end": 23.14,
+      "duration": 2.1000000000000014,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     },
     {
-      "text": "Turns out, screen lovers took forever to fall asleep and missed out on that sweet, sweet REM action.",
-      "start": 37.96,
-      "end": 43.72,
-      "duration": 5.759999999999998,
-      "avg_logprob": -0.2037208,
-      "no_speech_prob": 1.803832e-12
-    },
-    {
-      "text": "Why it matters.",
-      "start": 44.96,
-      "end": 45.8,
-      "duration": 0.8399999999999963,
-      "avg_logprob": -0.2037208,
-      "no_speech_prob": 1.803832e-12
-    },
-    {
-      "text": "So, if you want to sleep like a baby, maybe give your phone a bedtime too.",
-      "start": 47.08,
-      "end": 50.98,
-      "duration": 3.8999999999999986,
-      "avg_logprob": -0.2037208,
-      "no_speech_prob": 1.803832e-12
-    },
-    {
-      "text": "Call to action.",
-      "start": 51.98,
-      "end": 52.7,
-      "duration": 0.720000000000006,
-      "avg_logprob": -0.2037208,
-      "no_speech_prob": 1.803832e-12
+      "text": "This means better chatbots and smarter AI on regular hardware.",
+      "start": 23.78,
+      "end": 26.98,
+      "duration": 3.1999999999999993,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     },
     {
       "text": "Follow for more science in 30 seconds.",
-      "start": 53.46,
-      "end": 55.16,
-      "duration": 1.6999999999999957,
-      "avg_logprob": -0.2037208,
-      "no_speech_prob": 1.803832e-12
+      "start": 27.28,
+      "end": 29.56,
+      "duration": 2.2799999999999976,
+      "avg_logprob": -0.16983147,
+      "no_speech_prob": 2.4368656e-12
     }
   ],
-  "duration": 55.08
+  "duration": 29.92
 }

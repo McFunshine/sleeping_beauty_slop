@@ -36,4 +36,10 @@ Here is the summary of the paper:
 [Insert summary here]
 
 Output:
-A ready-to-record 30-second TikTok script for Gen Z including only the dialogue parts (omiting the instructions).
+A ready-to-record 30-second TikTok script for Gen Z. 
+
+IMPORTANT: Put ONLY the spoken script text inside <output> tags. Do not include any labels like [Hook], [What they found], or any stage directions. Just the words that will be spoken. For example:
+
+<output>
+Wanna know the ultimate stress buster? Scientists took people into the city and the woods, then checked their stress levels. Boom! Those who chilled in nature had way lower stress hormones. So next time you're feeling frazzled, ditch the concrete jungle and hit the trails! Follow for more science in 30 seconds!
+</output>

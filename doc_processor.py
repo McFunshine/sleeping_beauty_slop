@@ -18,4 +18,4 @@ class DocProcessor:
         """Extract key points for script generation"""
         prompt = f"{self.prompt_template}\n\n{paper_content}"
         
-        ut.call_mistral_api(prompt, api_key=os.getenv("MISTRAL_API_KEY"))
+        return ut.call_mistral_api(prompt, api_key=os.getenv("MISTRAL_API_KEY"))
