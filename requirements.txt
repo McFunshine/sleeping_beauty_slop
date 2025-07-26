@@ -12,6 +12,7 @@ groq>=0.4.0  # For Groq API (Whisper speech-to-text with word timestamps)
 # Text-to-Speech
 torch>=2.0.0  # PyTorch (required for TTS)
 TTS>=0.22.0  # Coqui TTS
+elevenlabs>=1.0.0  # ElevenLabs high-quality TTS
 
 # Development tools
 python-dotenv>=1.0.0  # For environment variables

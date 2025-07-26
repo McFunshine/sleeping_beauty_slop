@@ -169,12 +169,17 @@ class VideoAssembler:
         if not current_segment:
             return frame
         
-        # Calculate fade effect
+        # Calculate fade effect - quick fade in/out
         segment_progress = (current_time - current_segment.start) / (current_segment.end - current_segment.start)
-        if segment_progress < 0.1:
-            alpha = int(segment_progress * 10 * 255)  # Fade in
-        elif segment_progress > 0.9:
-            alpha = int((1 - segment_progress) * 10 * 255)  # Fade out
+        fade_duration = 0.1  # 10% of segment for fade in/out
+        
+        if segment_progress < fade_duration:
+            # Fade in
+            alpha = int((segment_progress / fade_duration) * 255)
+        elif segment_progress > (1 - fade_duration):
+            # Fade out
+            fade_out_progress = (segment_progress - (1 - fade_duration)) / fade_duration
+            alpha = int((1 - fade_out_progress) * 255)
         else:
             alpha = 255  # Full opacity
         
@@ -200,9 +205,12 @@ class VideoAssembler:
         )
         
         try:
-            font = ImageFont.truetype("Arial", font_size)
+            font = ImageFont.truetype("Impact", font_size)
         except:
-            font = ImageFont.load_default()
+            try:
+                font = ImageFont.truetype("Arial Black", font_size)
+            except:
+                font = ImageFont.load_default()
         
         # Position text in bottom third of frame
         y_start = int(self.height * 0.7)
@@ -247,9 +255,12 @@ class VideoAssembler:
         
         for font_size in range(initial_font_size, min_font_size - 1, -1):
             try:
-                font = ImageFont.truetype("Arial", font_size)
+                font = ImageFont.truetype("Impact", font_size)
             except:
-                font = ImageFont.load_default()
+                try:
+                    font = ImageFont.truetype("Arial Black", font_size)
+                except:
+                    font = ImageFont.load_default()
             
             wrapped_text = self._wrap_text(text, font, max_width)
             
@@ -260,9 +271,12 @@ class VideoAssembler:
         
         # Fallback to minimum font size
         try:
-            font = ImageFont.truetype("Arial", min_font_size)
+            font = ImageFont.truetype("Impact", min_font_size)
         except:
-            font = ImageFont.load_default()
+            try:
+                font = ImageFont.truetype("Arial Black", min_font_size)
+            except:
+                font = ImageFont.load_default()
         
         return self._wrap_text(text, font, max_width), min_font_size
     

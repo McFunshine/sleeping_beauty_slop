@@ -19,16 +19,25 @@ except ImportError:
 class VoiceGenerator:
     """Generate voice narration using Coqui TTS"""
     
-    # Popular models for different use cases
+    # Popular models for different use cases (updated with best quality options)
     DEFAULT_MODELS = {
         "english_fast": "tts_models/en/ljspeech/tacotron2-DDC",
-        "english_quality": "tts_models/en/ljspeech/glow-tts",
+        "english_quality": "tts_models/en/ljspeech/glow-tts", 
+        "xtts_v2": "tts_models/multilingual/multi-dataset/xtts_v2",  # BEST QUALITY
+        "bark": "tts_models/multilingual/multi-dataset/bark",  # VERY NATURAL
         "multilingual": "tts_models/multilingual/multi-dataset/your_tts",
-        "voice_cloning": "tts_models/multilingual/multi-dataset/your_tts",
-        "bark": "tts_models/multilingual/multi-dataset/bark"
+        "voice_cloning": "tts_models/multilingual/multi-dataset/xtts_v2"  # Updated to XTTS v2
     }
     
-    def __init__(self, model_name: str = "english_fast", use_gpu: bool = True):
+    # High-quality pre-trained speakers for XTTS v2
+    PRESET_SPEAKERS = {
+        "ana_florence": "Ana Florence",
+        "andrew": "Andrew",
+        "emma": "Emma", 
+        "sara": "Sara"
+    }
+    
+    def __init__(self, model_name: str = "english_quality", use_gpu: bool = True):
         """
         Initialize TTS with specified model
         
@@ -241,7 +250,7 @@ class VoiceGeneratorAPI:
         self.generator = None
         self.current_model = None
     
-    def initialize_model(self, model_type: str = "english_fast", use_gpu: bool = True):
+    def initialize_model(self, model_type: str = "english_quality", use_gpu: bool = True):
         """Initialize TTS model"""
         if self.current_model != model_type:
             print(f"Switching to model: {model_type}")
@@ -253,7 +262,7 @@ class VoiceGeneratorAPI:
         script: str,
         output_dir: str = "assets/audio",
         filename: Optional[str] = None,
-        voice_type: str = "english_fast",
+        voice_type: str = "english_quality",
         reference_voice: Optional[str] = None
     ) -> Dict[str, Union[str, float]]:
         """
@@ -321,7 +330,7 @@ class VoiceGeneratorAPI:
 def generate_voice_from_script(
     script: str,
     output_path: str = "assets/audio/narration.wav",
-    voice_type: str = "english_fast",
+    voice_type: str = "english_quality",
     reference_voice: Optional[str] = None
 ) -> Dict[str, str]:
     """
@@ -377,7 +386,7 @@ if __name__ == "__main__":
         audio_path = generate_voice_from_script(
             script=test_script,
             output_path="test_narration.wav",
-            voice_type="english_fast"
+            voice_type="english_quality"
         )
         print(f"Voice generated: {audio_path}")
         
