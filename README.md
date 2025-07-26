@@ -58,7 +58,7 @@ sleeping_beauty_slop/
 | Paper Fetching | arXiv MCP | Fetch research papers |
 | Document Processing | Mistral | Process and understand papers |
 | Script Generation | Mistral LLM | Create 30-60 second engaging scripts |
-| Voice Generation | Coqui TTS | Generate narration |
+| Voice Generation | ElevenLabs | High-quality AI voice synthesis |
 | Voice Timing | Groq Whisper | Get word-level timing for captions |
 | Image Generation | Black Forest Labs Flux (FAL.AI) | Create cartoon visuals |
 | Video Assembly | FFmpeg | Combine all assets into video |
@@ -84,7 +84,7 @@ Now turn that into a 30–60 second video script with:
 1. **Paper Selection**: Use arXiv MCP to search and select papers
 2. **Document Processing**: Mistral processes the full paper content
 3. **Script Writing**: Mistral LLM generates engaging 30-60 second scripts
-4. **Voice Generation**: Coqui TTS creates the narration
+4. **Voice Generation**: ElevenLabs API creates high-quality narration
 5. **Voice Timing**: Groq Whisper provides precise word-level timestamps for caption sync
 6. **Image Generation**: Flux model generates cartoon-style images via FAL.AI
 7. **Video Assembly**: FFmpeg combines voice, images, and timed captions
@@ -101,7 +101,12 @@ cd sleeping_beauty_slop
 pip install -r requirements.txt
 
 # Set up API keys in .env file
-echo "GROQ_API_KEY=your_groq_api_key" > .env
+cat > .env << EOF
+GROQ_API_KEY=your_groq_api_key
+ELEVENLABS_API_KEY=your_elevenlabs_api_key
+FAL_KEY=your_fal_ai_key
+MISTRAL_API_KEY=your_mistral_api_key
+EOF
 
 # Test the pipeline
 python test_video_assembly.py
@@ -114,7 +119,7 @@ python main.py
 
 The complete video generation pipeline is now **fully functional** with:
 
-- **✅ Voice Generation**: Coqui TTS with automatic audio optimization
+- **✅ Voice Generation**: ElevenLabs API for high-quality AI voices
 - **✅ Word-Level Timing**: Groq Whisper API integration for precise timestamp extraction  
 - **✅ Video Assembly**: FFmpeg-based video creation with synchronized text overlays
 - **✅ End-to-End Testing**: Working demo that creates videos from audio + images + timing data
