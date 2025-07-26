@@ -36,13 +36,13 @@ This project creates TikTok/YouTube Shorts style videos from academic papers by:
 ```
 sleeping_beauty_slop/
 ├── main.py                    # Entry script
-├── paper_fetcher.pie          # arXiv MCP interface
-├── doc_processor.pie          # Mistral document processing
-├── script_writer.pie          # Mistral LLM script generation
-├── voice_generator.pie        # Coqui TTS interface
-├── image_generator.pie        # Flux model via FAL.AI
-├── voice_timing.pie           # Mistral Voxel for text timing
-├── video_assembly.pie         # FFmpeg composition
+├── paper_fetcher.py           # arXiv MCP interface
+├── doc_processor.py           # Mistral document processing
+├── script_writer.py           # Mistral LLM script generation
+├── voice_generator.py         # Coqui TTS interface
+├── image_generator.py         # Flux model via FAL.AI
+├── voice_timing.py            # Mistral Voxel for text timing
+├── video_assembly.py          # FFmpeg composition
 ├── assets/
 │   ├── images/
 │   ├── audio/
