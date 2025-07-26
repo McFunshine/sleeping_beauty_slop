@@ -20,10 +20,26 @@ class TimingSegment:
 class VideoAssembler:
     """Assemble video from components using FFmpeg"""
     
-    def __init__(self):
-        self.width = 1080
-        self.height = 1920  # Vertical video
-        self.fps = 30
+    def __init__(self, quality_preset="medium"):
+        """
+        Initialize with quality preset
+        
+        Args:
+            quality_preset: "low" (540x960, 15fps), "medium" (720x1280, 24fps), "high" (1080x1920, 30fps)
+        """
+        if quality_preset == "low":
+            self.width = 540
+            self.height = 960
+            self.fps = 15
+        elif quality_preset == "medium":
+            self.width = 720
+            self.height = 1280
+            self.fps = 24
+        else:  # high
+            self.width = 1080
+            self.height = 1920
+            self.fps = 30
+        
         self.transition_duration = 0.5  # Crossfade duration in seconds
     
     def create_video_with_timed_text(
@@ -355,11 +371,22 @@ def create_video_from_components(
     audio_path: str, 
     timing_data: List[Dict],
     output_path: str,
-    duration: float
+    duration: float,
+    quality_preset: str = "medium"
 ) -> str:
-    """Main API function to create video from components"""
+    """
+    Main API function to create video from components
     
-    assembler = VideoAssembler()
+    Args:
+        image_paths: List of image file paths
+        audio_path: Path to audio file
+        timing_data: List of timing segments
+        output_path: Output video path
+        duration: Video duration in seconds
+        quality_preset: "low" (fast), "medium" (balanced), "high" (best quality)
+    """
+    
+    assembler = VideoAssembler(quality_preset=quality_preset)
     assembler.create_video_with_timed_text(
         image_paths=image_paths,
         audio_path=audio_path,

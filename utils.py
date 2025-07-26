@@ -1,5 +1,10 @@
 import json
+import os
 from mistralai import Mistral
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 
 def get_paper_text(filepath):
