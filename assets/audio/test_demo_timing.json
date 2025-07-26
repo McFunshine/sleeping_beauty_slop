@@ -1,0 +1,268 @@
+{
+  "text": " Scientists just discovered something that will blow your mind. Black holes aren't actually black-they-re-rainbow-colored portals to other dimensions. This changes everything we thought we knew about physics. The implications are absolutely insane and could revolutionize space travel forever.",
+  "word_timings": [
+    {
+      "word": "Scientists",
+      "start": 0.1,
+      "end": 0.7,
+      "duration": 0.6
+    },
+    {
+      "word": "just",
+      "start": 0.7,
+      "end": 1.1,
+      "duration": 0.40000000000000013
+    },
+    {
+      "word": "discovered",
+      "start": 1.1,
+      "end": 1.64,
+      "duration": 0.5399999999999998
+    },
+    {
+      "word": "something",
+      "start": 1.64,
+      "end": 2.12,
+      "duration": 0.4800000000000002
+    },
+    {
+      "word": "that",
+      "start": 2.12,
+      "end": 2.76,
+      "duration": 0.6399999999999997
+    },
+    {
+      "word": "will",
+      "start": 2.76,
+      "end": 2.92,
+      "duration": 0.16000000000000014
+    },
+    {
+      "word": "blow",
+      "start": 2.92,
+      "end": 3.18,
+      "duration": 0.26000000000000023
+    },
+    {
+      "word": "your",
+      "start": 3.18,
+      "end": 3.48,
+      "duration": 0.2999999999999998
+    },
+    {
+      "word": "mind.",
+      "start": 3.48,
+      "end": 4.18,
+      "duration": 0.6999999999999997
+    },
+    {
+      "word": "Black",
+      "start": 4.72,
+      "end": 5.08,
+      "duration": 0.3600000000000003
+    },
+    {
+      "word": "holes",
+      "start": 5.08,
+      "end": 5.44,
+      "duration": 0.3600000000000003
+    },
+    {
+      "word": "aren't",
+      "start": 5.44,
+      "end": 5.84,
+      "duration": 0.39999999999999947
+    },
+    {
+      "word": "actually",
+      "start": 5.84,
+      "end": 6.36,
+      "duration": 0.5200000000000005
+    },
+    {
+      "word": "black-they-re-rainbow-colored",
+      "start": 6.36,
+      "end": 8.2,
+      "duration": 1.839999999999999
+    },
+    {
+      "word": "portals",
+      "start": 8.2,
+      "end": 8.78,
+      "duration": 0.5800000000000001
+    },
+    {
+      "word": "to",
+      "start": 8.78,
+      "end": 9.02,
+      "duration": 0.2400000000000002
+    },
+    {
+      "word": "other",
+      "start": 9.02,
+      "end": 9.3,
+      "duration": 0.28000000000000114
+    },
+    {
+      "word": "dimensions.",
+      "start": 9.3,
+      "end": 10.24,
+      "duration": 0.9399999999999995
+    },
+    {
+      "word": "This",
+      "start": 9.86,
+      "end": 11.08,
+      "duration": 1.2200000000000006
+    },
+    {
+      "word": "changes",
+      "start": 11.08,
+      "end": 11.62,
+      "duration": 0.5399999999999991
+    },
+    {
+      "word": "everything",
+      "start": 11.62,
+      "end": 12.2,
+      "duration": 0.5800000000000001
+    },
+    {
+      "word": "we",
+      "start": 12.2,
+      "end": 12.56,
+      "duration": 0.3600000000000012
+    },
+    {
+      "word": "thought",
+      "start": 12.56,
+      "end": 12.8,
+      "duration": 0.2400000000000002
+    },
+    {
+      "word": "we",
+      "start": 12.8,
+      "end": 13.06,
+      "duration": 0.2599999999999998
+    },
+    {
+      "word": "knew",
+      "start": 13.06,
+      "end": 13.34,
+      "duration": 0.27999999999999936
+    },
+    {
+      "word": "about",
+      "start": 13.34,
+      "end": 13.76,
+      "duration": 0.41999999999999993
+    },
+    {
+      "word": "physics.",
+      "start": 13.76,
+      "end": 14.56,
+      "duration": 0.8000000000000007
+    },
+    {
+      "word": "The",
+      "start": 15.08,
+      "end": 15.32,
+      "duration": 0.2400000000000002
+    },
+    {
+      "word": "implications",
+      "start": 15.32,
+      "end": 15.98,
+      "duration": 0.6600000000000001
+    },
+    {
+      "word": "are",
+      "start": 15.98,
+      "end": 16.3,
+      "duration": 0.3200000000000003
+    },
+    {
+      "word": "absolutely",
+      "start": 16.3,
+      "end": 16.98,
+      "duration": 0.6799999999999997
+    },
+    {
+      "word": "insane",
+      "start": 16.98,
+      "end": 17.66,
+      "duration": 0.6799999999999997
+    },
+    {
+      "word": "and",
+      "start": 17.66,
+      "end": 18.0,
+      "duration": 0.33999999999999986
+    },
+    {
+      "word": "could",
+      "start": 18.0,
+      "end": 18.26,
+      "duration": 0.26000000000000156
+    },
+    {
+      "word": "revolutionize",
+      "start": 18.26,
+      "end": 19.22,
+      "duration": 0.9599999999999973
+    },
+    {
+      "word": "space",
+      "start": 19.22,
+      "end": 19.66,
+      "duration": 0.4400000000000013
+    },
+    {
+      "word": "travel",
+      "start": 19.66,
+      "end": 20.14,
+      "duration": 0.4800000000000004
+    },
+    {
+      "word": "forever.",
+      "start": 20.14,
+      "end": 20.92,
+      "duration": 0.7800000000000011
+    }
+  ],
+  "segments": [
+    {
+      "text": "Scientists just discovered something that will blow your mind.",
+      "start": 0.0,
+      "end": 4.24,
+      "duration": 4.24,
+      "avg_logprob": -0.27097848,
+      "no_speech_prob": 9.881382e-13
+    },
+    {
+      "text": "Black holes aren't actually black-they-re-rainbow-colored portals to other dimensions.",
+      "start": 4.24,
+      "end": 10.36,
+      "duration": 6.119999999999999,
+      "avg_logprob": -0.27097848,
+      "no_speech_prob": 9.881382e-13
+    },
+    {
+      "text": "This changes everything we thought we knew about physics.",
+      "start": 10.36,
+      "end": 14.68,
+      "duration": 4.32,
+      "avg_logprob": -0.27097848,
+      "no_speech_prob": 9.881382e-13
+    },
+    {
+      "text": "The implications are absolutely insane and could revolutionize space travel forever.",
+      "start": 14.68,
+      "end": 20.96,
+      "duration": 6.280000000000001,
+      "avg_logprob": -0.27097848,
+      "no_speech_prob": 9.881382e-13
+    }
+  ],
+  "duration": 20.92
+}

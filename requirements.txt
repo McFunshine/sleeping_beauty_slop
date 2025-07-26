@@ -1,0 +1,17 @@
+# Core dependencies
+ffmpeg-python>=0.2.0
+requests>=2.31.0
+pillow>=10.0.0
+numpy>=1.24.0
+
+# AI/ML APIs (to be configured with your API keys)
+# mistralai  # For Mistral API
+# fal-client  # For FAL.AI (Flux image generation)
+groq>=0.4.0  # For Groq API (Whisper speech-to-text with word timestamps)
+
+# Text-to-Speech
+torch>=2.0.0  # PyTorch (required for TTS)
+TTS>=0.22.0  # Coqui TTS
+
+# Development tools
+python-dotenv>=1.0.0  # For environment variables
