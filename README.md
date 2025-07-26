@@ -24,7 +24,7 @@ This project creates TikTok/YouTube Shorts style videos from academic papers by:
    ├─ [4a] Image Generation (Flux via FAL.AI)
    └─ [4b] Voice Generation (Coqui TTS)
           ↓
-[5] Voice Timing (Mistral Voxel)
+[5] Voice Timing (Groq Whisper)
           ↓
 [6] Video Assembly (FFmpeg)
           ↓
@@ -41,7 +41,7 @@ sleeping_beauty_slop/
 ├── script_writer.py           # Mistral LLM script generation
 ├── voice_generator.py         # Coqui TTS interface
 ├── image_generator.py         # Flux model via FAL.AI
-├── voice_timing.py            # Mistral Voxel for text timing
+├── VoiceTiming.py             # Groq Whisper for word-level timing
 ├── video_assembly.py          # FFmpeg composition
 ├── assets/
 │   ├── images/
@@ -59,7 +59,7 @@ sleeping_beauty_slop/
 | Document Processing | Mistral | Process and understand papers |
 | Script Generation | Mistral LLM | Create 30-60 second engaging scripts |
 | Voice Generation | Coqui TTS | Generate narration |
-| Voice Timing | Mistral Voxel | Get text timing for captions |
+| Voice Timing | Groq Whisper | Get word-level timing for captions |
 | Image Generation | Black Forest Labs Flux (FAL.AI) | Create cartoon visuals |
 | Video Assembly | FFmpeg | Combine all assets into video |
 
@@ -85,7 +85,7 @@ Now turn that into a 30–60 second video script with:
 2. **Document Processing**: Mistral processes the full paper content
 3. **Script Writing**: Mistral LLM generates engaging 30-60 second scripts
 4. **Voice Generation**: Coqui TTS creates the narration
-5. **Voice Timing**: Mistral Voxel provides word-level timestamps for caption sync
+5. **Voice Timing**: Groq Whisper provides precise word-level timestamps for caption sync
 6. **Image Generation**: Flux model generates cartoon-style images via FAL.AI
 7. **Video Assembly**: FFmpeg combines voice, images, and timed captions
 8. **Output**: 1080x1920 vertical MP4 video ready for TikTok/YouTube Shorts
@@ -97,12 +97,29 @@ Now turn that into a 30–60 second video script with:
 git clone https://github.com/McFunshine/sleeping_beauty_slop.git
 cd sleeping_beauty_slop
 
-# Install dependencies (coming soon)
-# pip install -r requirements.txt
+# Install dependencies
+pip install -r requirements.txt
+
+# Set up API keys in .env file
+echo "GROQ_API_KEY=your_groq_api_key" > .env
+
+# Test the pipeline
+python test_video_assembly.py
 
 # Run the main script
 python main.py
 ```
+
+## Current Status ✅
+
+The complete video generation pipeline is now **fully functional** with:
+
+- **✅ Voice Generation**: Coqui TTS with automatic audio optimization
+- **✅ Word-Level Timing**: Groq Whisper API integration for precise timestamp extraction  
+- **✅ Video Assembly**: FFmpeg-based video creation with synchronized text overlays
+- **✅ End-to-End Testing**: Working demo that creates videos from audio + images + timing data
+
+**Test it yourself**: Run `python test_video_assembly.py` to see the complete pipeline in action!
 
 ## Output Specifications
 
